@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#h1 {
+text-align: center;
+}
+
+
+#shwer {
+    background-color:rgb(189, 189, 189);
+        border-radius: 5px;
+        border:2px solid black ;
+    
+    
+    
+    
+    
+}
+
+#chkShm {
+    color:rgb(0, 0, 0);
+        text-align:center;
+        padding-top: 3px;
+        font-weight: bolder;
+        float: right;
+        clear: both; 
+        margin: -1px;
+        background-color: hsl(51, 86%, 57%);
+        height: 27px;
+        width: 165px;
+        border: 2px solid black;
+        border-radius: 4px;
+        position: relative;  
+    
+    
+ 
+ }
+
+#chkShmRc {
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+    clear: both; 
+    
+
+    }
+
+
+    #fah {
+        background-color:rgb(189, 189, 189);
+        border-radius: 5px;
+        border:2px solid black ;
+       
+        
+        
+      
+    }
+    
+    #fahChk {
+        color: antiquewhite;
+        text-align:center;
+        padding-top: 3px;
+        font-weight: bolder;
+        float: right;
+        clear: both; 
+        margin: -1px;
+        background-color: hsl(0, 91%, 63%);
+        height: 27px;
+        width: 165px;
+        border: 2px solid black;
+        border-radius: 4px;
+        position: relative;  
+     }
+    
+    #fahChkRc {
+        padding: 10px;
+        position: relative;
+        text-align: justify;
+        clear: both; 
+     
+        }
+
+     #fran {
+            background-color:rgb(189, 189, 189);
+            border-radius: 5px;
+            border:2px solid black ;       
+        
+          }
+        
+    #franChk {
+        color: rgb(0, 0, 0);
+        text-align:center;
+        padding-top: 3px;
+        font-weight: bolder;
+        float: right;
+        clear: both; 
+        margin: -1px;
+        background-color: hsl(0, 91%, 63%);
+        height: 27px;
+        width: 165px;
+        border: 2px solid black;
+        border-radius: 4px;
+        position: relative;  
+        background-color: hsl(29, 82%, 68%);
+        border: 2px solid black;
+        border-radius: 4px;
+        position: relative; 
+
+         }
+        
+    #franChkRc {
+
+            padding: 10px;
+            position: relative;
+            text-align: justify;
+            clear: both;
+
+         }
+
+    
+
+         @media (min-width: 992px) {
+            .row ,.r2 {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                
+      
+            }
+           
+
+        }
+            @media (max-width: 991px) and (min-width:768px) {
+             .r2{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin: 20px;
+        
+                
+                }
+                #fran{
+                    margin: 20px;
+                }
+            }
+
+            @media (max-width: 767px) {
+
+                .row ,.r2 { 
+
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    gap: 20px;
+
+                }
+            }
